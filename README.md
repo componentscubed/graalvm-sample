@@ -11,7 +11,7 @@
 #Gamma       Gamma.js
 #/  \
 #src  Graph.class
-# /
+#/
 #Graph.java
 
 #Created a java package Gamma that includes a Node.js file called Gamma.js and a java file Graph.class.
