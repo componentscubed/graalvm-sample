@@ -8,7 +8,7 @@
 
 #installation-directory
 
-#File Gamma.js
+#File: Gamma.js
 
 #Directory: Gamma
 
