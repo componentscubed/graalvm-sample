@@ -38,14 +38,14 @@ public class Graph extends JPanel {
 	   private List<Integer> scores;
 
 	   public Graph(List<Integer> scores) {
-						       this.scores = scores;
+		this.scores = scores;
 					 }
-                                         public Graph(){}
+           public Graph(){}
 
-					    @Override
-					       protected void paintComponent(Graphics g) {
-						             super.paintComponent(g);
-					           Graphics2D g2 = (Graphics2D)g;
+	   @Override
+	   protected void paintComponent(Graphics g) {
+		super.paintComponent(g);
+	         Graphics2D g2 = (Graphics2D)g;
 	         g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
                  
 
