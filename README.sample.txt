@@ -22,4 +22,6 @@
 
 #        node  --jvm --polyglot   Gamma.js
 
-`
+# `To view the results and the graph:  
+
+#         http://localhost:3000/
