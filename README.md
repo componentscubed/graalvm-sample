@@ -7,12 +7,13 @@
 #Directory structure
 
 #installation-directory
-#/         \  
-#Directory: Gamma File:      Gamma.js
-#/  \
-#src  Graph.class
-#/
-#Graph.java
+#
+#File Gamma.js
+#Directory: Gamma
+#File: Graph.class
+#Directory: src 
+#File: Graph.java
+#
 
 #Created a java package Gamma that includes a Node.js file called Gamma.js and a java file Graph.class.
 #The Gamma.js contains javascript and python code, it also calls the Graph.class, in the Gamma directory,  with an array of data points.
