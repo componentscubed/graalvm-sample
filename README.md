@@ -8,7 +8,7 @@
 
 #installation-directory
 #/         \  
-#Gamma       Gamma.js
+#Directory: Gamma File:      Gamma.js
 #/  \
 #src  Graph.class
 #/
