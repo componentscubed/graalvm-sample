@@ -18,7 +18,7 @@
 
 # The Gamma.jar file also contains the entire package.
 
-# Execution instruction :
+# Execution instruction (THE NODE.JS EXPRESS MODULE NEEDS TO BE INSTALLED):
 
 #        node  --jvm --polyglot   Gamma.js
 
