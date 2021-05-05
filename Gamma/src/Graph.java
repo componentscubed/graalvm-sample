@@ -26,17 +26,18 @@ import javax.swing.*;
 @SuppressWarnings("serial")
 public class Graph extends JPanel {
 	   private static final int MAX_SCORE = 500;
-	      private static final int PREF_W = 800;
-	         private static final int PREF_H = 650;
-		    private static final int BORDER_GAP = 30;
-		       private static final Color GRAPH_COLOR = Color.green;
-		          private static final Color GRAPH_POINT_COLOR = new Color(150, 50, 50, 180);
-			     private static final Stroke GRAPH_STROKE = new BasicStroke(3f);
-			        private static final int GRAPH_POINT_WIDTH = 12;
-				   private static final int Y_HATCH_CNT = 10;
-				      private List<Integer> scores;
+	   private static final int PREF_W = 800;
+	   private static final int PREF_H = 650;
+           private static final int BORDER_GAP = 30;
+           private static final Color GRAPH_COLOR = Color.green;
+	   private static final Color GRAPH_POINT_COLOR = new Color(150, 50, 50, 180);
+	   private static final Stroke GRAPH_STROKE = new BasicStroke(3f);
+	   private static final int GRAPH_POINT_WIDTH = 12;
+	   private static final int Y_HATCH_CNT = 10;
+				      
+	   private List<Integer> scores;
 
-				         public Graph(List<Integer> scores) {
+	   public Graph(List<Integer> scores) {
 						       this.scores = scores;
 					 }
                                          public Graph(){}
