@@ -127,7 +127,8 @@ public class Graph extends JPanel {
 	       for (int i = 0; i < points.size();i++)
 			{        
                  	   scores.add(Math.round((temp.get(i))*100));
-			}																                Graph mainPanel = new Graph(scores);
+			}	
+		Graph mainPanel = new Graph(scores);
                 JFrame frame = new JFrame("Gamma Function Graph (X axis range -5 to 5 , Y axis range 0 to 5)");
 	        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
      	        frame.getContentPane().add(mainPanel);
